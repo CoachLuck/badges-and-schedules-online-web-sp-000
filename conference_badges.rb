@@ -8,8 +8,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(speakers)
-  rooms = Hash.new
-  speakers.each_with_index { |name, idx| rooms[name] = idx}
+  rooms = []
+  speakers.each_with_index { |name, idx| rooms[idx] = "Hello, #{name}! You'll be assigned to room #{idx}!"}
   rooms
 end
 
