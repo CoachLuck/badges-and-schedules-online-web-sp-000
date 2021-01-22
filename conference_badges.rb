@@ -15,5 +15,5 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  puts assign_rooms(attendees)
+  puts attendees
 end
