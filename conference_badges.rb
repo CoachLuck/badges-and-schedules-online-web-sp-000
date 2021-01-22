@@ -12,5 +12,5 @@ def assign_rooms()
 end
 
 def print()
-  
+
 end
