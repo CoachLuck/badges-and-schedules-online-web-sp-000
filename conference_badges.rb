@@ -10,6 +10,7 @@ end
 def assign_rooms(speakers)
   rooms = Hash.new
   speakers.each_with_index { |name, idx| rooms[name] = idx}
+  rooms
 end
 
 def printer()
